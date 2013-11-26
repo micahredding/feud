@@ -279,24 +279,31 @@ body.intro {
 
 body.game {
   background: white;
-  padding: 2em; }
-  body.game #question {
-    margin: 1em; }
+  padding: 0 2em; }
+  body.game h1#question {
+    font-size: 3em;
+    margin: 0.8em 1em; }
   body.game .answer {
     display: block;
     background: #b6d635;
     color: #333333;
-    font-size: 2em;
+    font-size: 2.7em;
     font-weight: bold;
     padding: 0.75em;
-    margin: 0.25em; }
+    margin: 0.25em 1em; }
     body.game .answer:hover {
       background: #eeeeee; }
+  body.game .answer.revealed {
+    color: white; }
   body.game #next {
     display: block;
-    font-size: 2em;
-    padding: 0.5em;
-    margin: 1em auto;
-    text-align: center; }
+    font-size: 2.5em;
+    line-height: 1em;
+    margin: 2em 1em;
+    padding: 1em;
+    min-width: 2em; }
+    body.game #next:active {
+      background: #1f738f;
+      color: white; }
   body.game #template {
     display: none; }
