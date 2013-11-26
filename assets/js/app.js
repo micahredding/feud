@@ -12,6 +12,13 @@ var qs = (function(a) {
     return b;
 })(window.location.search.substr(1).split('&'));
 
+current_page = Number(qs['page']);
+if(!current_page || current_page == NaN) {
+	current_page = 1;
+}
+next_page = current_page + 1;
+if(next_page < 1) { next_page = 1; }
+
 feuds = {
 	"justin": {
 		"question": "What is your name?",
@@ -40,7 +47,7 @@ feud_order = {
 	"2": "micah"
 }
 
-feud_id = feud_order[qs['page']];
+feud_id = feud_order[current_page];
 feud = feuds[feud_id];
 
 // colors = {'#2893b9', '#b6d635'};
@@ -86,8 +93,6 @@ $(document).ready(function(){
 	$.each(feud.answers, function(index, value){
 		add_answer(index, value);
 	});
-	next_page = Number(qs['page']) + 1;
-	if(next_page < 1) { next_page = 1; }
-	$('#next').attr('href', '?page=' + next_page);
+	$('#next').attr('href', 'game.html?page=' + next_page);
 
 });

@@ -249,19 +249,33 @@ dl {
   box-sizing: border-box; }
 
 body.intro {
-  background: #2893b9;
-  padding: 2em; }
+  background-color: #1e5799;
+  background-image: -webkit-radial-gradient(center,  ellipse cover, #1e5799 0%, #2989d8 41%, #207cca 71%, #7db9e8 100%);
+  background-image: radial-gradient( ellipse  at center, #1e5799 0%, #2989d8 41%, #207cca 71%, #7db9e8 100%);
+  min-height: 650px;
+  padding: 2em;
+  text-align: center; }
   body.intro h1 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Times New Roman', Times, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.2em;
     color: #fff9d6;
     font-weight: bold;
     font-size: 134px;
+    margin-top: 0.5em;
     text-shadow: 0px 0px 0 #e7e7e7, 1px 1px 0 #d8d8d8, 2px 2px 0 #cacaca, 3px 3px 0 #bbbbbb, 4px 4px 0 #adadad, 5px 5px 0 #9e9e9e, 6px 6px 0 #909090, 7px 7px 6px rgba(0, 0, 0, 0.6), 7px 7px 1px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(0, 0, 0, 0.2); }
     body.intro h1 div:first-letter {
       font-size: 2em; }
+  body.intro #begin {
+    color: #2893b9;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 0;
+    text-transform: uppercase; }
+    body.intro #begin:hover {
+      color: white; }
 
 body.game {
   background: white;
