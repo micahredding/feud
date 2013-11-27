@@ -153,16 +153,16 @@ feuds = {
 			"5" : "Sleep Related Breathing Disorder"
 		}
 	},
-	"isaac" : {
-		"question" : "What are Isaac's Top 5 favorite weapons?",
-		"answers" : {
-			"1" : "Taurus 738 TCP",
-			"2" : "Weatherby Vanguard 7 mag",
-			"3" : "Keltec 9mm",
-			"4" : "Butcher Knife",
-			"5" : "Lead Pipe"
-		}
-	},
+	// "isaac" : {
+	// 	"question" : "What are Isaac's Top 5 favorite weapons?",
+	// 	"answers" : {
+	// 		"1" : "Taurus 738 TCP",
+	// 		"2" : "Weatherby Vanguard 7 mag",
+	// 		"3" : "Keltec 9mm",
+	// 		"4" : "Butcher Knife",
+	// 		"5" : "Lead Pipe"
+	// 	}
+	// },
 	"isaac" : {
 		"question" : "What are Isaac's Top 5 favorite cars?",
 		"answers" : {
@@ -175,7 +175,8 @@ feuds = {
 	}
 
 };
-feud_order = ["micah", "ryan", "leah", "justin", "josiah", "becca", "tiffany", "anya", "jonas", "heather k", "gabe", "heather", "melanie", "david", "isaac", "ira"];
+feud_order = ["micah", "ryan", "leah", "justin", "ira", "josiah", "melanie", "becca",
+							"tiffany", "anya", "heather k", "jonas", "gabe", "heather",	"david", "isaac"];
 
 var qs = (function(a) {
     if (a == "") return {};
