@@ -142,9 +142,40 @@ feuds = {
 			"4" : "Oregon",
 			"5" : "Alabama"
 		}
+	},
+	"ira" : {
+		"question" : "What are Ira's Favorite Psychological Disorders?",
+		"answers" : {
+			"1" : "Parental Relational Problems",
+			"2" : "Delusional Parasitosis",
+			"3" : "Pseudocyesis",
+			"4" : "Conversion paralysis",
+			"5" : "Sleep Related Breathing Disorder"
+		}
+	},
+	"isaac" : {
+		"question" : "What are Isaac's Top 5 favorite weapons?",
+		"answers" : {
+			"1" : "Taurus 738 TCP",
+			"2" : "Weatherby Vanguard 7 mag",
+			"3" : "Keltec 9mm",
+			"4" : "Butcher Knife",
+			"5" : "Lead Pipe"
+		}
+	},
+	"isaac" : {
+		"question" : "What are Isaac's Top 5 favorite cars?",
+		"answers" : {
+			"1" : "Nissan Murano",
+			"2" : "Toyota Tacoma",
+			"3" : "Lexus SC430",
+			"4" : "56 Corvette",
+			"5" : "54 Belair 2-Door"
+		}
 	}
+
 };
-feud_order = ["micah", "ryan", "leah", "justin", "josiah", "becca", "tiffany", "anya", "jonas", "heather k", "gabe", "heather", "melanie", "david"];
+feud_order = ["micah", "ryan", "leah", "justin", "josiah", "becca", "tiffany", "anya", "jonas", "heather k", "gabe", "heather", "melanie", "david", "isaac", "ira"];
 
 var qs = (function(a) {
     if (a == "") return {};

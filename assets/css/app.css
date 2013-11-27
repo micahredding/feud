@@ -302,7 +302,7 @@ body.game {
     margin: 2em 1em;
     padding: 1em;
     min-width: 2em; }
-    body.game #next:active {
+    body.game #next:hover {
       background: #1f738f;
       color: white; }
   body.game #template {

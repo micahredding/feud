@@ -81,7 +81,7 @@ body.game {
 		// &:hover {
 		// 	background: lighten(#2893b9, 10%);
 		// }
-		&:active {
+		&:hover {
 			background: darken(#2893b9, 10%);
 			color: white;
 		}
